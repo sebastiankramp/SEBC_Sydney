@@ -83,7 +83,7 @@ drwxrwxr-x   - oozie   oozie            0 2017-05-05 04:45 /user/oozie
 
 
 ## API serices
-````bash
+```bash
 [hdfs@ip-172-31-15-167 ec2-user]$ curl -u 'admin:sydney' "http://localhost:7180/api/v6/clusters/sebastiankramp/services"
 {
   "items" : [ {
