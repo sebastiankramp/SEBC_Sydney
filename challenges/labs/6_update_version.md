@@ -1,6 +1,6 @@
-#Version
+# Version
 
-##before update
+## before update
 ```bash
 [root@ip-172-31-15-167 krb5kdc]# curl -u 'admin:sydney' "http://localhost:7180/api/v14/cm/version"
 {
@@ -12,7 +12,7 @@
 }
 ```
 
-##after update
+## after update
 ```bash
 [root@ip-172-31-15-167 krb5kdc]# curl -u 'admin:sydney' "http://localhost:7180/api/v14/cm/version"
 {
